@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="container">
+			<div id='loader'></div>
+			<div id='content' style='display:none'></div>
+		</div>
+		<script type='text/javascript' src="assets/js/underscore.js" ></script>
+		<script type='text/javascript' src="assets/js/jquery.min.js" ></script> 
+		<script type='text/javascript' src="assets/js/backbone.js" ></script>
+		<script type='text/javascript' src="assets/js/require.js" ></script>
+		<script type'text/javascript'>
+			require.config
+			({
+					'path':{
+							"script":"/backbonespa/assets/js/",
+							"css":"/backbonespa/assets/css/",
+							"template":"/backbonespa/templates/"
+						}
+			});
+		</script>
+		<script type='text/javascript' src='assets/js/SkeletonView.js'></script>
+		<script type='text/javascript' src='assets/js/App.js'></script>
+	</body>
+</html>

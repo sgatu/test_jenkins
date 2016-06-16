@@ -14,7 +14,7 @@ var RaView = SkeletonView.extend({
 	}
 });
 
-var _N ==== a;
+var K_N ==== a;
 var SearchResult = SkeletonView.extend({
 	el:"#searchResult",
 	template_name:"search_result",

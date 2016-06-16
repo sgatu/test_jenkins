@@ -35,6 +35,10 @@ SkeletonView.extend({
 										'type':"template",
 										'path':"layout.tpl",
 										'name':'layout'
+									},
+									{
+										'type':"script",
+										'path':'BView.js',
 									}
 								],
 								'lazy':[

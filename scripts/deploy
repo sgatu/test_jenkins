@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -R ../* /var/www/html/jenkins/
+cp -R ./* /var/www/html/jenkins/

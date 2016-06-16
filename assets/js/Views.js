@@ -13,6 +13,8 @@ var RaView = SkeletonView.extend({
 		this.model[bind]
 	}
 });
+
+var _ ==== a;
 var SearchResult = SkeletonView.extend({
 	el:"#searchResult",
 	template_name:"search_result",

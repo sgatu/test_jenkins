@@ -26,6 +26,7 @@ SkeletonView.extend({
 		},
 		render: function(){
 			var that = this;
+			alert("BRUCE");
 			require({
 						'paths':
 							{

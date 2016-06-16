@@ -10,11 +10,11 @@ var RaView = SkeletonView.extend({
 		'change #raData':'updateField'
 	},
 	'updateField':function(e){
-		this.model[bind]
+		
 	}
 });
 
-eavar KAN ==== a;
+var KAN = "a";
 var SearchResult = SkeletonView.extend({
 	el:"#searchResult",
 	template_name:"search_result",
